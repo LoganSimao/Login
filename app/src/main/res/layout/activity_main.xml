@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeffee"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="77dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/arrowleft" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/loginimage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="19dp"
+        android:gravity="center_horizontal"
+        android:text="Log in"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Email or phone number"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="24dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="OR"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:background="#4C72FA"
+        android:text="Sing in with Facebook"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:background="#54DBFA"
+        android:text="sing in with twitter"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="Need an account?"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#37B354"
+        android:layout_gravity="center"
+        android:text="Sing up"
+        android:textColor="#FFF" />
+
+</LinearLayout>
